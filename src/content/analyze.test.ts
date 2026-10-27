@@ -543,6 +543,32 @@ describe('analyze — experience extraction', () => {
       expect(a.experience.required).toBe('3–5 yrs');
     });
   });
+
+  // In "2.5 years" the prose matcher's leading (?<!\d) guard passes on the "5"
+  // (the character before it is a "."), so the badge reported the digit after
+  // the decimal point as the whole requirement — "0.5 years" read as "5+ yrs",
+  // ten times too high (#431).
+  describe('a decimal year count is not a whole number (#431)', () => {
+    it('does not read the digit after a decimal point as the requirement', () => {
+      for (const text of [
+        '1.5 years of experience required.',
+        '2.5+ years of experience required.',
+        'Requires 10.5 years of experience.',
+        '0.5 years of experience required.',
+      ]) {
+        const a = analyze(text);
+        // Truncation is the labelled field's existing behavior, so it is the
+        // consistent answer here too — but never the decimal's trailing digit.
+        expect(a.experience.required, text).toBeNull();
+      }
+    });
+
+    it('still reads whole numbers next to decimal mentions of other things', () => {
+      // A decimal that is not a duration must not break the real figure.
+      const a = analyze('Experience with Python 3.10 for 4 years is required.');
+      expect(a.experience.required).toBe('4+ yrs');
+    });
+  });
 });
 
 describe('the AI eligibility budget survives the downstream prompt cut', () => {
