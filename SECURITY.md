@@ -11,7 +11,7 @@ and the current `main` branch receive security fixes.
 Please **do not open a public issue for security vulnerabilities.**
 
 Use GitHub's private vulnerability reporting instead:
-**[Report a vulnerability](https://github.com/ritsth/job-autofill-extension/security/advisories/new)**
+**[Report a vulnerability](https://github.com/phiftyfifty/job-autofill-extension/security/advisories/new)**
 (Security tab → "Report a vulnerability"). Include steps to reproduce, the
 affected component (extension, or the Cloud Run proxy in `server/`), and the
 impact you see.

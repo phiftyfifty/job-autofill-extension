@@ -9,7 +9,7 @@ By contributing, you agree that your contributions are licensed under the projec
 
 ## Ways to contribute
 
-- **Good first issues** — check the [issues labeled `good first issue`](https://github.com/ritsth/job-autofill-extension/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- **Good first issues** — check the [issues labeled `good first issue`](https://github.com/phiftyfifty/job-autofill-extension/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
   These are scoped to be small, self-contained, and low-risk (accessibility labels,
   small UX guards, unit tests for pure helpers, docs).
 - **Bugs** — open an issue using the bug report template. Include the job site,
@@ -25,7 +25,7 @@ By contributing, you agree that your contributions are licensed under the projec
 ## Getting started
 
 ```bash
-git clone https://github.com/ritsth/job-autofill-extension.git
+git clone https://github.com/phiftyfifty/job-autofill-extension.git
 cd job-autofill-extension
 npm install
 ```

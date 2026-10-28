@@ -115,7 +115,7 @@ disable, it's never transmitted, and it does not log page visits.)
 - ✅ I do not use or transfer user data to determine creditworthiness or for lending purposes.
 
 **Privacy policy URL**:
-`https://github.com/ritsth/job-autofill-extension/blob/main/PRIVACY.md`
+`https://github.com/phiftyfifty/job-autofill-extension/blob/main/PRIVACY.md`
 
 ---
 

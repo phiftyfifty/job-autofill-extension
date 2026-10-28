@@ -5,10 +5,10 @@
   "type": "module",
   "description": "Autofill job applications on Greenhouse, Lever & Workday and draft AI answers and tailored cover letters from your profile.",
   "license": "MIT",
-  "author": "Ritika Shrestha",
+  "author": "Matthew Vilaysack",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ritsth/job-autofill-extension.git"
+    "url": "https://github.com/phiftyfifty/job-autofill-extension.git"
   },
   "engines": {
     "node": "^22.13.0 || >=24"

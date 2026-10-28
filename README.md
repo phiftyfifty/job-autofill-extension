@@ -1,9 +1,9 @@
 # Little AI Helper (Chrome Extension)
 
-**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/Little%20AI%20Helper/iibpijacaghdcckphindbaijjgcbaoll)**
+Personal fork of [ritsth/job-autofill-extension](https://github.com/ritsth/job-autofill-extension) by Ritika Shrestha, MIT licensed.
 
-[![CI](https://github.com/ritsth/job-autofill-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/ritsth/job-autofill-extension/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/ritsth/job-autofill-extension/actions/workflows/codeql.yml/badge.svg)](https://github.com/ritsth/job-autofill-extension/actions/workflows/codeql.yml)
+[![CI](https://github.com/phiftyfifty/job-autofill-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/phiftyfifty/job-autofill-extension/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/phiftyfifty/job-autofill-extension/actions/workflows/codeql.yml/badge.svg)](https://github.com/phiftyfifty/job-autofill-extension/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Why I built this
@@ -217,7 +217,7 @@ and deploy the server with `OAUTH_CLIENT_ID` + `DAILY_LIMIT`.
 
 ## Contributing
 
-Issues and pull requests are welcome — see the [good first issues](https://github.com/ritsth/job-autofill-extension/labels/good%20first%20issue) to get started, and read [CONTRIBUTING.md](CONTRIBUTING.md) for setup and the pre-PR checklist. Participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md).
+Issues and pull requests are welcome — see the [good first issues](https://github.com/phiftyfifty/job-autofill-extension/labels/good%20first%20issue) to get started, and read [CONTRIBUTING.md](CONTRIBUTING.md) for setup and the pre-PR checklist. Participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
